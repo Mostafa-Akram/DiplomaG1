@@ -1,0 +1,28 @@
+# Ignore build files
+/build/
+/dist/
+
+# Ignore virtual environment
+venv/
+
+# Ignore editor-specific files
+*.swp
+*.swo
+*.DS_Store
+*.pyc
+*.mp4
+__pycache__/
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore folders
+Board/
+output/
+records/
+
