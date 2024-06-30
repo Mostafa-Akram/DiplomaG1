@@ -1,26 +1,26 @@
-#include <stdio.h>
-
 int main() {
+  unsigned int number1 = 0;
+  unsigned int number2 = 0;
 
-  char character;
+  printf("Enter first number \n");
+  scanf("%d", &number1);
 
-  printf("Enter capital letter: ");
-  scanf("%c", &character);
+  printf("Enter second number \n");
+ 
 
-  switch (character) {
-  case 'A' ... 'Z':                        //case 'A' ... 'Z' ----> case 65 ... 90:
-    printf("%c",character + ('a' - 'A')); // note you can replace 32 by ('a' - 'A')
-    break;
-  case 'a' ... 'z':
-    printf("%c", character - 32);
-    break;
-  default:
-    printf("Invalid input");
+  printf("number1 = %d \n", number1);
+  printf("number2 = %d \n", number2);
+
+  if (number1 > 255) {
+    number1 = 255;
   }
+  if (number2 > 255) {
+    number2 = 255;
+  }
+
+  printf("number1 = %d \n", number1);
+  printf("number2 = %d \n", number2);
+  printf("Sum = %d \n", number1 + number2);
 
   return 0;
 }
-
-// %b -->wronge
-
-
