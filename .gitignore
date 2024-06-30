@@ -11,6 +11,7 @@ venv/
 *.DS_Store
 *.pyc
 *.mp4
+*.pptx
 __pycache__/
 
 # Ignore IDE files
@@ -22,7 +23,7 @@ __pycache__/
 Thumbs.db
 
 # Ignore folders
-Board/
+
 output/
 records/
 
