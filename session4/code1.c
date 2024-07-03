@@ -15,12 +15,12 @@ int main() {
     printf("%c", character - 32);
     break;
   default:
-    printf("Invalid input");
+    printf("Invalid input"); 
   }
 
   return 0;
 }
 
-// %b -->wronge
+// %b --> wronge
 
 
