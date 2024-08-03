@@ -11,7 +11,7 @@ int main() {
   printf("x = %d\n", x);
   printf("*ptr = %d\n", *ptr);
 
-  int **ptrPtr;
+  int **ptrPtr;  // Double pointer controls 1D array or variable
 
   ptrPtr = &ptr;
   **ptrPtr = 70;
