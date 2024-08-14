@@ -15,8 +15,7 @@ int main() {
   printf("enter number of students \n");
   scanf("%d", &size); // 10 students
 
-  student *students =
-      malloc(size * sizeof(student)); // dynamic allocation for array of struct
+  student *students = malloc(size * sizeof(student)); // dynamic allocation for array of struct
                                       // for ex. 10 * 60 = 600 bytes
 
   for (int i = 0; i < size; i++) {
