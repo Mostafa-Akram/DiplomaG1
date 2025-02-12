@@ -1,0 +1,45 @@
+/*
+ * DIO_CFG.c
+ *
+ * Created: 10/16/2024 7:23:37 PM
+ *  Author: Mostafa Akram
+ */ 
+#include "../MCAL/DIO.h"
+
+u8 pins_CFG_Arr[] = {
+	OUTPUT,
+	OUTPUT,
+	OUTPUT,
+	OUTPUT,
+	INPUT,
+	INPUT_PULL_UP,
+	INPUT_PULL_UP,
+	OUTPUT,
+	
+	OUTPUT,
+	OUTPUT,
+	OUTPUT,
+	OUTPUT,
+	OUTPUT,
+	OUTPUT,
+	OUTPUT,
+	OUTPUT,
+	
+	OUTPUT,
+	OUTPUT,
+	OUTPUT,
+	OUTPUT,
+	OUTPUT,
+	OUTPUT,
+	OUTPUT,
+	OUTPUT,
+	
+	OUTPUT,
+	OUTPUT,
+	OUTPUT,
+	OUTPUT,
+	OUTPUT,
+	OUTPUT,
+	OUTPUT,
+	OUTPUT
+};
