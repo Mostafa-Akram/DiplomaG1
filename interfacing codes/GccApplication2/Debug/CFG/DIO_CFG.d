@@ -1,11 +1,16 @@
-CFG/DIO_CFG.d CFG/DIO_CFG.o: ../CFG/DIO_CFG.c ../CFG/../MCAL/DIO.h \
- ../CFG/../MCAL/../MemMap.h ../CFG/../MCAL/../StdTypes.h \
- ../CFG/../MCAL/../utils.h
+CFG/DIO_cfg.d CFG/DIO_cfg.o: ../CFG/DIO_cfg.c ../CFG/../MCAL/DIO_Int.h \
+ ../CFG/../MCAL/../StdTypes.h ../CFG/../MCAL/../MemMap.h \
+ ../CFG/../MCAL/../utils.h ../CFG/../MCAL/../CFG/DIO_cfg.h \
+ ../CFG/DIO_cfg.h
 
-../CFG/../MCAL/DIO.h:
-
-../CFG/../MCAL/../MemMap.h:
+../CFG/../MCAL/DIO_Int.h:
 
 ../CFG/../MCAL/../StdTypes.h:
 
+../CFG/../MCAL/../MemMap.h:
+
 ../CFG/../MCAL/../utils.h:
+
+../CFG/../MCAL/../CFG/DIO_cfg.h:
+
+../CFG/DIO_cfg.h:

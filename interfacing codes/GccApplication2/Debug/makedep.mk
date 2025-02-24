@@ -2,13 +2,11 @@
 # Automatically-generated file. Do not edit or delete the file
 ################################################################################
 
-CFG\DIO_CFG.c
+CFG\DIO_cfg.c
 
-HAL\LCD_prog.c
-
-HAL\seg7.c
+HAL\LCD_Prog.c
 
 main.c
 
-MCAL\DIO.c
+MCAL\DIO_Prog.c
 

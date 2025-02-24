@@ -120,34 +120,28 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="CFG\DIO_CFG.c">
+    <Compile Include="CFG\DIO_cfg.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="CFG\DIO_CFG.h">
+    <Compile Include="CFG\DIO_cfg.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="CFG\LCD_CFG.h">
+    <Compile Include="CFG\LCD_Cfg.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="HAL\LCD_interface.h">
+    <Compile Include="HAL\LCD_Int.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="HAL\LCD_prog.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="HAL\seg7.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="HAL\seg7.h">
+    <Compile Include="HAL\LCD_Prog.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="main.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="MCAL\DIO.c">
+    <Compile Include="MCAL\DIO_Int.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="MCAL\DIO.h">
+    <Compile Include="MCAL\DIO_Prog.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="MemMap.h">

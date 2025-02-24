@@ -1,7 +1,7 @@
 /*
- * LCD.h
+ * LCD_Cfg.h
  *
- * Created: 2/3/2025 4:34:28 PM
+ * Created: 2/24/2025 6:46:44 PM
  *  Author: Mostafa Akram
  */ 
 
@@ -9,27 +9,19 @@
 #ifndef LCD_CFG_H_
 #define LCD_CFG_H_
 
-#define _4_BIT 1
-#define _8_BIT 2
+#define _4_BIT  1
+#define _8_BIT  2
 
+#define RS PINA0
+#define EN PINA1
 
-#define LCD_MODO _8_BIT
+#define LCD_PORT PB
 
-#define LCD_PORT PORTB
-
-#define RS PINA1
-#define EN PINA0
-
-
-#define D0 PINB0
-#define D1 PINB1
-#define D2 PINB2
-#define D3 PINB3
-#define D4 PINB4
-#define D5 PINB5
-#define D6 PINB6
-#define D7 PINB7
+#define D4 PINC0
+#define D5 PINC1
+#define D6 PINC2
+#define D7 PINC3
 
 
 
-#endif /* LCD.CFG_H_ */
+#endif /* LCD_CFG_H_ */
